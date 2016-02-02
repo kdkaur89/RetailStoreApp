@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03623D43223E2CDC296BCF97 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4744A645C64C112FDC1503 /* libPods.a */; };
+		FA00CC671C5A99DB0030171B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA00CC661C5A99DB0030171B /* main.m */; };
+		FA00CC6A1C5A99DB0030171B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA00CC691C5A99DB0030171B /* AppDelegate.m */; };
+		FA00CC6D1C5A99DB0030171B /* RetailStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA00CC6B1C5A99DB0030171B /* RetailStore.xcdatamodeld */; };
+		FA00CC701C5A99DB0030171B /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA00CC6F1C5A99DB0030171B /* DashboardViewController.m */; };
+		FA00CC731C5A99DB0030171B /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA00CC721C5A99DB0030171B /* ProductsViewController.m */; };
+		FA00CC761C5A99DB0030171B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA00CC741C5A99DB0030171B /* Main.storyboard */; };
+		FA00CC781C5A99DB0030171B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA00CC771C5A99DB0030171B /* Images.xcassets */; };
+		FA00CC7B1C5A99DB0030171B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA00CC791C5A99DB0030171B /* LaunchScreen.xib */; };
+		FA00CC871C5A99DB0030171B /* RetailStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA00CC861C5A99DB0030171B /* RetailStoreTests.m */; };
+		FA00CC911C5A9B760030171B /* Products.json in Resources */ = {isa = PBXBuildFile; fileRef = FA00CC901C5A9B760030171B /* Products.json */; };
+		FA79BA961C5E1C4D00D6D994 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA79BA951C5E1C4D00D6D994 /* Localizable.strings */; };
+		FA79BA971C5E1C4D00D6D994 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA79BA951C5E1C4D00D6D994 /* Localizable.strings */; };
+		FA79BAFD1C5E91D400D6D994 /* ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BAF61C5E91D400D6D994 /* ProductCategory.m */; };
+		FA79BAFE1C5E91D400D6D994 /* ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BAF61C5E91D400D6D994 /* ProductCategory.m */; };
+		FA79BAFF1C5E91D400D6D994 /* ProductTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BAF81C5E91D400D6D994 /* ProductTypes.m */; };
+		FA79BB001C5E91D400D6D994 /* ProductTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BAF81C5E91D400D6D994 /* ProductTypes.m */; };
+		FA79BB011C5E91D400D6D994 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BAFA1C5E91D400D6D994 /* Cart.m */; };
+		FA79BB021C5E91D400D6D994 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BAFA1C5E91D400D6D994 /* Cart.m */; };
+		FA79BB031C5E91D400D6D994 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BAFC1C5E91D400D6D994 /* Product.m */; };
+		FA79BB041C5E91D400D6D994 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BAFC1C5E91D400D6D994 /* Product.m */; };
+		FA79BB071C5E98E800D6D994 /* DashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BB061C5E98E800D6D994 /* DashboardTableViewCell.m */; };
+		FA79BB081C5E98E800D6D994 /* DashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BB061C5E98E800D6D994 /* DashboardTableViewCell.m */; };
+		FA79BB0B1C5E9AE900D6D994 /* ProductsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BB0A1C5E9AE900D6D994 /* ProductsTableViewCell.m */; };
+		FA79BB0C1C5E9AE900D6D994 /* ProductsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BB0A1C5E9AE900D6D994 /* ProductsTableViewCell.m */; };
+		FA79BB141C5E9EC300D6D994 /* ProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BB131C5E9EC300D6D994 /* ProductDetailsViewController.m */; };
+		FA79BB151C5E9EC300D6D994 /* ProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BB131C5E9EC300D6D994 /* ProductDetailsViewController.m */; };
+		FA79BB1C1C5EACB800D6D994 /* CartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BB1A1C5EACB800D6D994 /* CartTableViewController.m */; };
+		FA79BB1D1C5EACB800D6D994 /* CartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79BB1A1C5EACB800D6D994 /* CartTableViewController.m */; };
+		FAD69DBF1C5D2A2200830A75 /* JSONLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD69DBE1C5D2A2200830A75 /* JSONLoader.m */; };
+		FAD69DCC1C5D324200830A75 /* ProductDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD69DCA1C5D324200830A75 /* ProductDetailsTableViewCell.m */; };
+		FAD69DCD1C5D324200830A75 /* ProductDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD69DCB1C5D324200830A75 /* ProductDetailsTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA00CC811C5A99DB0030171B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA00CC591C5A99DB0030171B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA00CC601C5A99DB0030171B;
+			remoteInfo = RetailStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E4744A645C64C112FDC1503 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B12FFD7EE47A02A240FBCAA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E1936E8D80CF8D273359CD02 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FA00CC611C5A99DB0030171B /* RetailStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetailStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA00CC651C5A99DB0030171B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA00CC661C5A99DB0030171B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA00CC681C5A99DB0030171B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA00CC691C5A99DB0030171B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA00CC6C1C5A99DB0030171B /* RetailStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RetailStore.xcdatamodel; sourceTree = "<group>"; };
+		FA00CC6E1C5A99DB0030171B /* DashboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		FA00CC6F1C5A99DB0030171B /* DashboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		FA00CC711C5A99DB0030171B /* ProductsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		FA00CC721C5A99DB0030171B /* ProductsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
+		FA00CC751C5A99DB0030171B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA00CC771C5A99DB0030171B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA00CC7A1C5A99DB0030171B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA00CC801C5A99DB0030171B /* RetailStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetailStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA00CC851C5A99DB0030171B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA00CC861C5A99DB0030171B /* RetailStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetailStoreTests.m; sourceTree = "<group>"; };
+		FA00CC901C5A9B760030171B /* Products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Products.json; sourceTree = "<group>"; };
+		FA74286E1C5D450500B27CAC /* RetailStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RetailStore-Prefix.pch"; sourceTree = "<group>"; };
+		FA79BA951C5E1C4D00D6D994 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FA79BAF51C5E91D400D6D994 /* ProductCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCategory.h; sourceTree = "<group>"; };
+		FA79BAF61C5E91D400D6D994 /* ProductCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCategory.m; sourceTree = "<group>"; };
+		FA79BAF71C5E91D400D6D994 /* ProductTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTypes.h; sourceTree = "<group>"; };
+		FA79BAF81C5E91D400D6D994 /* ProductTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTypes.m; sourceTree = "<group>"; };
+		FA79BAF91C5E91D400D6D994 /* Cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
+		FA79BAFA1C5E91D400D6D994 /* Cart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cart.m; sourceTree = "<group>"; };
+		FA79BAFB1C5E91D400D6D994 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		FA79BAFC1C5E91D400D6D994 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		FA79BB051C5E98E800D6D994 /* DashboardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardTableViewCell.h; sourceTree = "<group>"; };
+		FA79BB061C5E98E800D6D994 /* DashboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardTableViewCell.m; sourceTree = "<group>"; };
+		FA79BB091C5E9AE900D6D994 /* ProductsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsTableViewCell.h; sourceTree = "<group>"; };
+		FA79BB0A1C5E9AE900D6D994 /* ProductsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsTableViewCell.m; sourceTree = "<group>"; };
+		FA79BB121C5E9EC300D6D994 /* ProductDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailsViewController.h; sourceTree = "<group>"; };
+		FA79BB131C5E9EC300D6D994 /* ProductDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailsViewController.m; sourceTree = "<group>"; };
+		FA79BB191C5EACB800D6D994 /* CartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartTableViewController.h; sourceTree = "<group>"; };
+		FA79BB1A1C5EACB800D6D994 /* CartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartTableViewController.m; sourceTree = "<group>"; };
+		FAD69DBD1C5D2A2200830A75 /* JSONLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONLoader.h; sourceTree = "<group>"; };
+		FAD69DBE1C5D2A2200830A75 /* JSONLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONLoader.m; sourceTree = "<group>"; };
+		FAD69DC91C5D324200830A75 /* ProductDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailsTableViewCell.h; sourceTree = "<group>"; };
+		FAD69DCA1C5D324200830A75 /* ProductDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailsTableViewCell.m; sourceTree = "<group>"; };
+		FAD69DCB1C5D324200830A75 /* ProductDetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductDetailsTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA00CC5E1C5A99DB0030171B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03623D43223E2CDC296BCF97 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA00CC7D1C5A99DB0030171B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6714E41A1CA49B4D15D1BABC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B12FFD7EE47A02A240FBCAA /* Pods.debug.xcconfig */,
+				E1936E8D80CF8D273359CD02 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACDD7016805D322FEB558B28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E4744A645C64C112FDC1503 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA00CC581C5A99DB0030171B = {
+			isa = PBXGroup;
+			children = (
+				FA00CC631C5A99DB0030171B /* RetailStore */,
+				FA00CC831C5A99DB0030171B /* RetailStoreTests */,
+				FA00CC621C5A99DB0030171B /* Products */,
+				6714E41A1CA49B4D15D1BABC /* Pods */,
+				ACDD7016805D322FEB558B28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA00CC621C5A99DB0030171B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA00CC611C5A99DB0030171B /* RetailStore.app */,
+				FA00CC801C5A99DB0030171B /* RetailStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA00CC631C5A99DB0030171B /* RetailStore */ = {
+			isa = PBXGroup;
+			children = (
+				FA822E491C61334C00558A31 /* ServiceLayer */,
+				FA79BB0F1C5E9CF800D6D994 /* Controller */,
+				FA79BB0E1C5E9CF000D6D994 /* View */,
+				FA79BB0D1C5E9CE900D6D994 /* Model */,
+				FA00CC681C5A99DB0030171B /* AppDelegate.h */,
+				FA00CC691C5A99DB0030171B /* AppDelegate.m */,
+				FA00CC741C5A99DB0030171B /* Main.storyboard */,
+				FA00CC771C5A99DB0030171B /* Images.xcassets */,
+				FA00CC791C5A99DB0030171B /* LaunchScreen.xib */,
+				FA00CC6B1C5A99DB0030171B /* RetailStore.xcdatamodeld */,
+				FA00CC641C5A99DB0030171B /* Supporting Files */,
+			);
+			path = RetailStore;
+			sourceTree = "<group>";
+		};
+		FA00CC641C5A99DB0030171B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA00CC651C5A99DB0030171B /* Info.plist */,
+				FA00CC661C5A99DB0030171B /* main.m */,
+				FA74286E1C5D450500B27CAC /* RetailStore-Prefix.pch */,
+				FA79BA951C5E1C4D00D6D994 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA00CC831C5A99DB0030171B /* RetailStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA00CC861C5A99DB0030171B /* RetailStoreTests.m */,
+				FA00CC841C5A99DB0030171B /* Supporting Files */,
+			);
+			path = RetailStoreTests;
+			sourceTree = "<group>";
+		};
+		FA00CC841C5A99DB0030171B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA00CC851C5A99DB0030171B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA79BB0D1C5E9CE900D6D994 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA79BAF51C5E91D400D6D994 /* ProductCategory.h */,
+				FA79BAF61C5E91D400D6D994 /* ProductCategory.m */,
+				FA79BAF71C5E91D400D6D994 /* ProductTypes.h */,
+				FA79BAF81C5E91D400D6D994 /* ProductTypes.m */,
+				FA79BAF91C5E91D400D6D994 /* Cart.h */,
+				FA79BAFA1C5E91D400D6D994 /* Cart.m */,
+				FA79BAFB1C5E91D400D6D994 /* Product.h */,
+				FA79BAFC1C5E91D400D6D994 /* Product.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FA79BB0E1C5E9CF000D6D994 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA79BB101C5E9D0100D6D994 /* UIElements */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FA79BB0F1C5E9CF800D6D994 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA79BB191C5EACB800D6D994 /* CartTableViewController.h */,
+				FA79BB1A1C5EACB800D6D994 /* CartTableViewController.m */,
+				FA79BB121C5E9EC300D6D994 /* ProductDetailsViewController.h */,
+				FA79BB131C5E9EC300D6D994 /* ProductDetailsViewController.m */,
+				FA00CC6E1C5A99DB0030171B /* DashboardViewController.h */,
+				FA00CC6F1C5A99DB0030171B /* DashboardViewController.m */,
+				FA00CC711C5A99DB0030171B /* ProductsViewController.h */,
+				FA00CC721C5A99DB0030171B /* ProductsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FA79BB101C5E9D0100D6D994 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				FA79BB111C5E9D1000D6D994 /* TableViewCell */,
+			);
+			name = UIElements;
+			sourceTree = "<group>";
+		};
+		FA79BB111C5E9D1000D6D994 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA79BB051C5E98E800D6D994 /* DashboardTableViewCell.h */,
+				FA79BB091C5E9AE900D6D994 /* ProductsTableViewCell.h */,
+				FA79BB0A1C5E9AE900D6D994 /* ProductsTableViewCell.m */,
+				FA79BB061C5E98E800D6D994 /* DashboardTableViewCell.m */,
+				FAD69DC91C5D324200830A75 /* ProductDetailsTableViewCell.h */,
+				FAD69DCA1C5D324200830A75 /* ProductDetailsTableViewCell.m */,
+				FAD69DCB1C5D324200830A75 /* ProductDetailsTableViewCell.xib */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		FA822E491C61334C00558A31 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				FA00CC901C5A9B760030171B /* Products.json */,
+				FAD69DBD1C5D2A2200830A75 /* JSONLoader.h */,
+				FAD69DBE1C5D2A2200830A75 /* JSONLoader.m */,
+			);
+			name = ServiceLayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA00CC601C5A99DB0030171B /* RetailStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA00CC8A1C5A99DB0030171B /* Build configuration list for PBXNativeTarget "RetailStore" */;
+			buildPhases = (
+				23DEBAA2EA7310DCB241E1E4 /* Check Pods Manifest.lock */,
+				FA00CC5D1C5A99DB0030171B /* Sources */,
+				FA00CC5E1C5A99DB0030171B /* Frameworks */,
+				FA00CC5F1C5A99DB0030171B /* Resources */,
+				CD97BA437FC41A73D46C4E52 /* Embed Pods Frameworks */,
+				D087F51C7D5FD3FF76F27E7A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetailStore;
+			productName = RetailStore;
+			productReference = FA00CC611C5A99DB0030171B /* RetailStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA00CC7F1C5A99DB0030171B /* RetailStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA00CC8D1C5A99DB0030171B /* Build configuration list for PBXNativeTarget "RetailStoreTests" */;
+			buildPhases = (
+				FA00CC7C1C5A99DB0030171B /* Sources */,
+				FA00CC7D1C5A99DB0030171B /* Frameworks */,
+				FA00CC7E1C5A99DB0030171B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA00CC821C5A99DB0030171B /* PBXTargetDependency */,
+			);
+			name = RetailStoreTests;
+			productName = RetailStoreTests;
+			productReference = FA00CC801C5A99DB0030171B /* RetailStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA00CC591C5A99DB0030171B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = KD;
+				TargetAttributes = {
+					FA00CC601C5A99DB0030171B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FA00CC7F1C5A99DB0030171B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FA00CC601C5A99DB0030171B;
+					};
+				};
+			};
+			buildConfigurationList = FA00CC5C1C5A99DB0030171B /* Build configuration list for PBXProject "RetailStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA00CC581C5A99DB0030171B;
+			productRefGroup = FA00CC621C5A99DB0030171B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA00CC601C5A99DB0030171B /* RetailStore */,
+				FA00CC7F1C5A99DB0030171B /* RetailStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA00CC5F1C5A99DB0030171B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA00CC761C5A99DB0030171B /* Main.storyboard in Resources */,
+				FA79BA961C5E1C4D00D6D994 /* Localizable.strings in Resources */,
+				FA00CC911C5A9B760030171B /* Products.json in Resources */,
+				FAD69DCD1C5D324200830A75 /* ProductDetailsTableViewCell.xib in Resources */,
+				FA00CC7B1C5A99DB0030171B /* LaunchScreen.xib in Resources */,
+				FA00CC781C5A99DB0030171B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA00CC7E1C5A99DB0030171B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA79BA971C5E1C4D00D6D994 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23DEBAA2EA7310DCB241E1E4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD97BA437FC41A73D46C4E52 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D087F51C7D5FD3FF76F27E7A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA00CC5D1C5A99DB0030171B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA79BAFD1C5E91D400D6D994 /* ProductCategory.m in Sources */,
+				FAD69DBF1C5D2A2200830A75 /* JSONLoader.m in Sources */,
+				FA79BB071C5E98E800D6D994 /* DashboardTableViewCell.m in Sources */,
+				FA00CC731C5A99DB0030171B /* ProductsViewController.m in Sources */,
+				FA79BB1C1C5EACB800D6D994 /* CartTableViewController.m in Sources */,
+				FA79BB0B1C5E9AE900D6D994 /* ProductsTableViewCell.m in Sources */,
+				FA00CC701C5A99DB0030171B /* DashboardViewController.m in Sources */,
+				FA00CC6A1C5A99DB0030171B /* AppDelegate.m in Sources */,
+				FA79BB011C5E91D400D6D994 /* Cart.m in Sources */,
+				FA79BB141C5E9EC300D6D994 /* ProductDetailsViewController.m in Sources */,
+				FA00CC671C5A99DB0030171B /* main.m in Sources */,
+				FA79BAFF1C5E91D400D6D994 /* ProductTypes.m in Sources */,
+				FA79BB031C5E91D400D6D994 /* Product.m in Sources */,
+				FA00CC6D1C5A99DB0030171B /* RetailStore.xcdatamodeld in Sources */,
+				FAD69DCC1C5D324200830A75 /* ProductDetailsTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA00CC7C1C5A99DB0030171B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA79BB081C5E98E800D6D994 /* DashboardTableViewCell.m in Sources */,
+				FA00CC871C5A99DB0030171B /* RetailStoreTests.m in Sources */,
+				FA79BB1D1C5EACB800D6D994 /* CartTableViewController.m in Sources */,
+				FA79BB041C5E91D400D6D994 /* Product.m in Sources */,
+				FA79BB001C5E91D400D6D994 /* ProductTypes.m in Sources */,
+				FA79BAFE1C5E91D400D6D994 /* ProductCategory.m in Sources */,
+				FA79BB0C1C5E9AE900D6D994 /* ProductsTableViewCell.m in Sources */,
+				FA79BB021C5E91D400D6D994 /* Cart.m in Sources */,
+				FA79BB151C5E9EC300D6D994 /* ProductDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA00CC821C5A99DB0030171B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA00CC601C5A99DB0030171B /* RetailStore */;
+			targetProxy = FA00CC811C5A99DB0030171B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA00CC741C5A99DB0030171B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA00CC751C5A99DB0030171B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA00CC791C5A99DB0030171B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA00CC7A1C5A99DB0030171B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA00CC881C5A99DB0030171B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B12FFD7EE47A02A240FBCAA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "RetailStore/RetailStore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA00CC891C5A99DB0030171B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1936E8D80CF8D273359CD02 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "RetailStore/RetailStore-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA00CC8B1C5A99DB0030171B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B12FFD7EE47A02A240FBCAA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RetailStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KD.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA00CC8C1C5A99DB0030171B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1936E8D80CF8D273359CD02 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RetailStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KD.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA00CC8E1C5A99DB0030171B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B12FFD7EE47A02A240FBCAA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RetailStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KD.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetailStore.app/RetailStore";
+			};
+			name = Debug;
+		};
+		FA00CC8F1C5A99DB0030171B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1936E8D80CF8D273359CD02 /* Pods.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RetailStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KD.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetailStore.app/RetailStore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA00CC5C1C5A99DB0030171B /* Build configuration list for PBXProject "RetailStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA00CC881C5A99DB0030171B /* Debug */,
+				FA00CC891C5A99DB0030171B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA00CC8A1C5A99DB0030171B /* Build configuration list for PBXNativeTarget "RetailStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA00CC8B1C5A99DB0030171B /* Debug */,
+				FA00CC8C1C5A99DB0030171B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA00CC8D1C5A99DB0030171B /* Build configuration list for PBXNativeTarget "RetailStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA00CC8E1C5A99DB0030171B /* Debug */,
+				FA00CC8F1C5A99DB0030171B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA00CC6B1C5A99DB0030171B /* RetailStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA00CC6C1C5A99DB0030171B /* RetailStore.xcdatamodel */,
+			);
+			currentVersion = FA00CC6C1C5A99DB0030171B /* RetailStore.xcdatamodel */;
+			path = RetailStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA00CC591C5A99DB0030171B /* Project object */;
+}

@@ -1,0 +1,201 @@
+{
+    "error": null,
+    "result": {
+        "category": [{
+                     "name": "Electronics",
+                     "id": "EL",
+                     "types": [{
+                               "type": "Microwave",
+                               "products": [{
+                                            "id": "MICRO1",
+                                            "name": "23 L Convection Microwave oven",
+                                            "image": "",
+                                            "price": "7500.00",
+                                            "brand": "Electrolux",
+                                            "type": "Microwave"
+                                            }, {
+                                            "id": "MICRO2",
+                                            "name": "25 L Grill Microwave Oven",
+                                            "image": "",
+                                            "price": "6900.00",
+                                            "brand": "LG",
+                                            "type": "Microwave"
+                                            }, {
+                                            "id": "MICRO3",
+                                            "name": "23 L Microwave Oven",
+                                            "image": "",
+                                            "price": "9241.00",
+                                            "brand": "IFB",
+                                            "type": "Microwave"
+                                            }]
+                               }, {
+                               "type": "Television",
+                               "products": [{
+                                            "id": "TV1",
+                                            "name": "Plasma TV 42 inch",
+                                            "image": "",
+                                            "price": "22300.00",
+                                            "brand": "TVS",
+                                            "type": "Television"
+                                            }, {
+                                            "id": "TV2",
+                                            "name": "Full HD LED TV 43 inch",
+                                            "image": "",
+                                            "price": "22400.00",
+                                            "brand": "Micromax",
+                                            "type": "Television"
+                                            }, {
+                                            "id": "TV3",
+                                            "name": "Full HD Internet LED TV 42 inch",
+                                            "image": "",
+                                            "price": "35300.00",
+                                            "brand": "Samsung",
+                                            "type": "Television"
+                                            }, {
+                                            "id": "TV4",
+                                            "name": "Curve smart interaction 3D TV  42 inch",
+                                            "image": "",
+                                            "price": "337000.00",
+                                            "brand": "",
+                                            "type": "Television"
+                                            }, {
+                                            "id": "TV5",
+                                            "name": "Full HD internet LED TV 32 inch",
+                                            "image": "",
+                                            "price": "8300.00",
+                                            "brand": "Sony",
+                                            "type": "Television"
+                                            }]
+                               }, {
+                               "type": "Vacuum Cleaner",
+                               "products": [{
+                                            "id": "VC1",
+                                            "name": "Trendy Steel Vacuum Cleaner",
+                                            "image": "",
+                                            "price": "7700.00",
+                                            "brand": "Eureka Forbes",
+                                            "type": "Vacuum Cleaner"
+                                            }, {
+                                            "id": "VC2",
+                                            "name": "Trendy Nano Vacuum cleaner",
+                                            "image": "",
+                                            "price": "2799.00",
+                                            "brand": "Eureka Forbes",
+                                            "type": "Vaccum Cleaner"
+                                            }, {
+                                            "id": "VC3",
+                                            "name": "Wet and dry vauum cleaner",
+                                            "image": "",
+                                            "price": "6409.00",
+                                            "brand": "Karter",
+                                            "type": "Vaccum Cleaner"
+                                            }, {
+                                            "id": "VC4",
+                                            "name": "Handy Vacuum cleaner",
+                                            "image": "",
+                                            "price": "1399.00",
+                                            "brand": "Nova",
+                                            "type": "Vaccum Cleaner"
+                                            }]
+                               }]
+                     }, {
+                     "name": "Furniture",
+                     "id": "FR",
+                     "types": [{
+                               "type": "Table",
+                               "products": [{
+                                            "id": "TL1",
+                                            "name": "Brown solid wood coffee table",
+                                            "image": "",
+                                            "price": "10400.00",
+                                            "brand": "Junglewood",
+                                            "type": "Table"
+                                            }, {
+                                            "id": "TL2",
+                                            "name": "Slidy coffee table",
+                                            "image": "",
+                                            "price": "13299.00",
+                                            "brand": "Handiana",
+                                            "type": "Table"
+                                            }, {
+                                            "id": "TL3",
+                                            "name": "Coffee table",
+                                            "image": "",
+                                            "price": "9832.00",
+                                            "brand": "Nirvana",
+                                            "type": "Table"
+                                            }]
+                               }, {
+                               "type": "Chair",
+                               "products": [{
+                                            "id": "CH1",
+                                            "name": "Blue push back chair",
+                                            "image": "",
+                                            "price": "7899.00",
+                                            "brand": "Oakwood",
+                                            "type": "Chair"
+                                            }, {
+                                            "id": "CH2",
+                                            "name": "High executive chair",
+                                            "image": "",
+                                            "price": "3899.00",
+                                            "brand": "Nilkamal",
+                                            "type": "Chair"
+                                            }, {
+                                            "id": "CH3",
+                                            "name": "Recliner chain in brown leather",
+                                            "image": "",
+                                            "price": "9999.00",
+                                            "brand": "Prestige",
+                                            "type": "Chair"
+                                            }, {
+                                            "id": "CH4",
+                                            "name": "Visitor chair",
+                                            "image": "",
+                                            "price": "1234.00",
+                                            "brand": "Mavi",
+                                            "type": "Chair"
+                                            }]
+                               }, {
+                               "type": "Almirah",
+                               "products": [{
+                                            "id": "AL1",
+                                            "name": "3 door wardrobe",
+                                            "image": "",
+                                            "price": "13999.00",
+                                            "brand": "Diamond",
+                                            "type": "Almirah"
+                                            }, {
+                                            "id": "AL2",
+                                            "name": "Double door steel amirah",
+                                            "image": "",
+                                            "price": "10000.00",
+                                            "brand": "Godrej",
+                                            "type": "Almirah"
+                                            }, {
+                                            "id": "AL3",
+                                            "name": "Wooden wardrobe in brown",
+                                            "image": "",
+                                            "price": "12000.00",
+                                            "brand": "Oakwood",
+                                            "type": "Almirah"
+                                            }, {
+                                            "id": "AL4",
+                                            "name": "Collapsible wardrobe in cream",
+                                            "image": "",
+                                            "price": "2333.00",
+                                            "brand": "Everything",
+                                            "type": "Almirah"
+                                            }, {
+                                            "id": "AL5",
+                                            "name": "Kids wardrobe",
+                                            "image": "",
+                                            "price": "2500.00",
+                                            "brand": "Disney",
+                                            "type": "Almirah"
+                                            }]
+                               }]
+                     }]
+        
+    }
+}
